@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 4.06rem;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+  padding: 1.19rem;
+  /* margin-bottom: 2.25rem; */
+}
+
+header > img {
+  width: 1.96rem;
+  height: 100%;
+  margin-right: 0.38rem;
+
+  /* height: 26.22px; */
+}
+
+.header--title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.1em;
+  margin-right: auto;
+}
+.header--project {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.94rem;
+  text-align: right;
+}
